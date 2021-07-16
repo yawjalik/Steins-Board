@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Steins;Board</string>
+    <string name="loading">Loading…</string>
+
+    <string name="laugh001">Laugh 001</string>
+    <string name="laugh002">Laugh 002</string>
+    <string name="laugh003">Laugh 003</string>
+    <string name="laugh004">Laugh 004</string>
+    <string name="laugh005">Laugh 005</string>
+    <string name="laugh006">Laugh 006</string>
+    <string name="zombi001">Zombie 001</string>
+    <string name="zombi002">Zombie 002</string>
+    <string name="zombi003">Zombie 003</string>
+    <string name="agent">Agent</string>
+    <string name="beeetch">Beeetch</string>
+    <string name="farewell">Farewell</string>
+    <string name="doctor">Doctor</string>
+    <string name="damare">Damare</string>
+    <string name="part_time">Part Time</string>
+    <string name="hey_mister">Hey Mister</string>
+    <string name="madscientist">Mad 001</string>
+    <string name="madscientist002">Mad 002</string>
+    <string name="madscientist003">Mad 003</string>
+    <string name="so_cool">So Cool</string>
+    <string name="sonuvabich">Sonuvabich</string>
+    <string name="keikaku">Keikaku</string>
+    <string name="christinadet">Christinadet</string>
+    <string name="nostalgia">Nostalgia</string>
+    <string name="christina001">christina001</string>
+    <string name="christina002">christina002</string>
+    <string name="christina003">christina003</string>
+    <string name="christina004">christina004</string>
+    <string name="christina005">christina005</string>
+    <string name="christina006">christina006</string>
+    <string name="assistant001">assistant001</string>
+    <string name="assistant002">assistant002</string>
+    <string name="assistant003">assistant003</string>
+    <string name="assistant004">assistant004</string>
+    <string name="assistant005">assistant005</string>
+    <string name="assistant006">assistant006</string>
+    <string name="genius001">genius 001</string>
+    <string name="genius002">genius 002</string>
+    <string name="genius003">genius 003</string>
+    <string name="genius004">genius 004</string>
+    <string name="genius005">genius 005</string>
+    <string name="genius006">genius 006</string>
+    <string name="kyouma001">kyouma 001</string>
+    <string name="kyouma002">kyouma 002</string>
+    <string name="kyouma003">kyouma 003</string>
+    <string name="elpsykongroo">ElPsyKongroo</string>
+    <string name="myfavoriterightarm">myFavorite</string>
+    <string name="shiningfinger">ShiningFinger</string>
+    <string name="expand">expand</string>
+
+    <string name="tuturu1">Tuturu 1</string>
+    <string name="tuturu2">Tuturu 2</string>
+    <string name="tuturu3">Tuturu 3</string>
+    <string name="tuturu4">Tuturu 4</string>
+    <string name="tuturu5">Tuturu 5</string>
+    <string name="tuturu6">Tuturu 6</string>
+    <string name="karaage1">Karaage 1</string>
+    <string name="karaage2">Karaage 2</string>
+    <string name="okarin1">Okarin 1</string>
+    <string name="okarin2">Okarin 2</string>
+    <string name="sugoine">Sugoine</string>
+    <string name="gelbana">Gelbana</string>
+    <string name="metal_upa">Metal Upa</string>
+    <string name="watch">Watch</string>
+    <string name="kurisuchan">Kurisuchan</string>
+
+    <string name="gentleman">Gentleman</string>
+    <string name="hakka1">Hakka 1</string>
+    <string name="hakka2">Hakka 2</string>
+    <string name="scream1">Scream 1</string>
+    <string name="scream2">Scream 2</string>
+    <string name="tsundere1">Tsundere 1</string>
+    <string name="tsundere2">Tsundere 2</string>
+    <string name="banana">Banana</string>
+    <string name="faris_tan">FARIS-TAN</string>
+    <string name="daru_thing">Daru Thing</string>
+    <string name="cheapass">Cheapass</string>
+    <string name="chuunibyou">Chuunibyou</string>
+
+    <string name="cel7">Cel 7</string>
+    <string name="tina">Tina</string>
+    <string name="channeler">\@channeler</string>
+    <string name="christina">Christina</string>
+    <string name="nope">N O P E</string>
+    <string name="tsundere">Tsundere</string>
+    <string name="kurisu_laugh">Kurisu Laugh</string>
+    <string name="hououin_san">Hououin-san</string>
+    <string name="surprised">Surprised</string>
+
+    <string name="ibn5100">IBN 5100</string>
+
+    <string name="nyan1">nyan 1</string>
+    <string name="nyan2">nyan 2</string>
+
+    <string name="ohaaa1">Ohaaa 1</string>
+    <string name="ohaaa2">Ohaaa 2</string>
+    <string name="cheesu">Cheesu</string>
+    <string name="wheesu">Wheesu</string>
+    <string name="okaydokey1">OkeyDokey 1</string>
+    <string name="okaydokey2">OkeyDokey 2</string>
+
+    <string name="creditsTitle">CONGRATS!</string>
+    <string name="creditsDesc">
+        You found the secret page.
+        \nThis is the choice of Steins;Gate
+    </string>
+    <string name="creditsBody">
+        - Made with Java and Android SDK on IntelliJ IDEA
+        \n\n- Sounds cleaned using REAPER and VocalRemover.org
+        \n\n- Images and backgrounds obtained from Google
+        \n\n\nThis app is not monetized, but I appreciate donations.
+        \nEvery cent gets me closer to obtaining a bottle of Dr. P
+        \nHelp me I\'m broke: paypal.me/yawjalik29
+    </string>
+</resources>

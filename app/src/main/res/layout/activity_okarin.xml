@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OkarinActivity">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/view"
+            android:src="@drawable/background_5"
+            android:scaleType="centerCrop"/>
+
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="50dp">
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:stretchColumns="*"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent">
+
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/laugh001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bLaugh001"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/laugh002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bLaugh002"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/laugh003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bLaugh003"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/laugh004"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bLaugh004"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/laugh005"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bLaugh005"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/laugh006"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bLaugh006"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/christina001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChristina001"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/christina002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChristina002"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/christina003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChristina003"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/christina004"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChristina004"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/christina005"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChristina005"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/christina006"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChristina006"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/assistant001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bAssistant001"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/assistant002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bAssistant002"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/assistant003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bAssistant003"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/assistant004"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bAssistant004"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/assistant005"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bAssistant005"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/assistant006"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bAssistant006"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/genius001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bGenius001"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/genius002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bGenius002"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/genius003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bGenius003"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/genius004"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bGenius004"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/genius005"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bGenius005"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/genius006"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bGenius006"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/zombi001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bZombie001"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/zombi002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bZombie002"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/zombi003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bZombie003"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/kyouma001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bKyouma001"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/kyouma002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bKyouma002"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/kyouma003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bKyouma003"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+
+                <Button
+                        android:text="@string/madscientist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bMadScientist"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/madscientist002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bMadScientist002"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/madscientist003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bMadScientist003"
+                        android:onClick="playSound"/>
+
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/hey_mister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bHeyMister"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/so_cool"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bSoCool"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/sonuvabich"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bSonuvabich"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bDagaotokoda"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/shiningfinger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bShiningFinger"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/expand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bExpand"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/elpsykongroo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bElPsyKongroo"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/channeler"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChanneler2"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/myfavoriterightarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bMyFavoriteRightArm"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/agent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bAgent"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/damare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bDamare"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/christinadet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bChristinadet"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/beeetch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bBeetch"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/part_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bPartTime"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/nostalgia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bNostalgia"
+                        android:onClick="playSound"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button
+                        android:text="@string/keikaku"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bKeikaku"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/doctor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bDoctor"
+                        android:onClick="playSound"/>
+                <Button
+                        android:text="@string/farewell"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bFarewell"
+                        android:onClick="playSound"/>
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="?attr/homeAsUpIndicator" android:id="@+id/imageButton"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="2dp"
+            android:onClick="back"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
